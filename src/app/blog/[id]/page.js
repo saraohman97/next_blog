@@ -18,7 +18,7 @@ const BlogPost = async ({ params }) => {
       <Image src={data.img} alt='' priority={true} height={300} width={300} className='flex float-right w-4/12 m-9 bg-white' />
       <div className='flex justify-between items-center mb-5 mt-40'>
         <h3 className='text-5xl w-fit'>{data.title}</h3>
-        <div className='flex items-center gap-4 w-96'>
+        <div className='flex items-center gap-4 w-96 justify-end'>
           <div className='text-right'>
             <p className='text-lg'>{data.username}</p>
             <p className='text-xs'>Keep bashing heads in, bitches!</p>
